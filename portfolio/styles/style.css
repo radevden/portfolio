@@ -1,0 +1,67 @@
+.hero {
+  background: black;
+}
+body {
+  background-color: black !important;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 6.4px;
+  color: white !important;
+  text-align: center;
+  margin-bottom: 30px !important;
+}
+
+h2 {
+  color: #fff !important;
+  text-align: center;
+  font-size: 36px;
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.6px;
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+}
+
+h3 {
+  color: rgba(255, 255, 255, 0.8) !important;
+  text-align: center;
+  font-size: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#getintouch {
+  padding: 10px 30px;
+  background: #ed93be;
+  box-shadow: 0px 4px 4px rgba(223, 220, 220, 0.25);
+  border-radius: 50px;
+  border: #ed93be;
+  justify-content: center;
+  align-items: center;
+  color: #272142;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+  transition: all 200ms ease-in-out;
+  margin: 35px 0;
+}
+
+#getintouch:hover {
+  background: #272142;
+  color: #ed93be;
+  border: #272142;
+}
+
+footer {
+  text-align: center;
+}
