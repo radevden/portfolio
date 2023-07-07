@@ -40,8 +40,7 @@ h3 {
   line-height: 30px;
 }
 
-#getintouch,
-.btn {
+#button {
   padding: 10px 30px;
   background: #ed93be;
   box-shadow: 0px 4px 4px rgba(223, 220, 220, 0.25);
@@ -57,7 +56,7 @@ h3 {
   margin: 35px 0;
 }
 
-#getintouch:hover {
+#button:hover {
   background: #272142;
   color: #ed93be;
   border: #272142;
@@ -65,6 +64,7 @@ h3 {
 
 footer {
   text-align: center;
+  margin: 50px 0;
 }
 
 p {
@@ -81,4 +81,8 @@ img:hover {
   display: block;
   margin: 0 auto !important;
   padding: 20px 0;
+}
+
+footer p {
+  opacity: 0.5;
 }
