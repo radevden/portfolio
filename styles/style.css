@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 50px !important;
   font-family: Ropa Sans;
   font-style: normal;
   font-weight: 400;
@@ -14,13 +14,12 @@ h1 {
   letter-spacing: 6.4px;
   color: white !important;
   text-align: center;
-  margin-bottom: 30px !important;
+  margin-bottom: 20px !important;
 }
 
 h2 {
   color: #fff !important;
   text-align: center;
-  font-size: 36px;
   font-family: Ropa Sans;
   font-style: normal;
   font-weight: 400;
@@ -33,7 +32,7 @@ h2 {
 h3 {
   color: rgba(255, 255, 255, 0.8) !important;
   text-align: center;
-  font-size: 28px;
+  font-size: 20px !important;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -87,7 +86,7 @@ footer p {
   opacity: 0.5;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 360px) {
   h1 {
     font-size: 20px !important;
   }
