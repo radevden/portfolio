@@ -52,7 +52,9 @@ h3 {
   font-family: Montserrat;
   font-weight: 700;
   transition: all 200ms ease-in-out;
-  margin: 35px 0;
+  margin: 0 auto;
+  margin-bottom: 22px;
+  width: 50%;
 }
 
 #button:hover {
