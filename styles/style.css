@@ -148,3 +148,7 @@ footer p {
   margin: 6px !important;
   width: 48% !important;
 }
+
+.message {
+  padding: 45px 20px;
+}
