@@ -108,6 +108,7 @@ footer p {
     line-height: 15px !important;
     margin: 20px 0 !important;
   }
+
   #button {
     padding: 8px 10px;
     margin: 5px 0;
@@ -127,8 +128,17 @@ footer p {
     margin-top: 35px;
   }
 
+  .container-touch {
+    max-width: 80% !important;
+    margin-top: 35px;
+  }
+
   #h2-work {
     margin-bottom: 5px !important;
+  }
+
+  #about-head {
+    max-width: 80% !important;
   }
 }
 
@@ -150,14 +160,14 @@ footer p {
 }
 
 .message {
-  padding: 40px 50px;
+  padding: 50px 72px;
   border-radius: 5px;
   margin: 10px;
   border: 1px solid black;
 }
 
 #getintouch {
-  padding: 4px 50px;
+  padding: 8px 72px;
   border-radius: 5px;
   margin: 10px;
   border: 1px solid black;
@@ -172,5 +182,8 @@ label {
 }
 
 .container-touch {
-  padding: 60px 300px;
+  padding: 60px 250px;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
 }
