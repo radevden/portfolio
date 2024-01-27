@@ -76,6 +76,10 @@ p {
   color: white;
 }
 
+#photo-me {
+  max-width: 350px;
+}
+
 img:hover {
   transform: scale(1.1);
   transition: all 100ms linear;
@@ -114,13 +118,9 @@ footer p {
     margin: 5px 0;
   }
 
-  .container {
-    max-width: 80% !important;
-  }
-
   .container-home {
     max-width: 80% !important;
-    margin-top: 35px;
+    margin-bottom: 35px !important;
   }
 
   .container-work {
