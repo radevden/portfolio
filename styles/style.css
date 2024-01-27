@@ -54,6 +54,7 @@ h3 {
   transition: all 200ms ease-in-out;
   margin: 0 auto;
   margin-bottom: 22px;
+  margin-top: 22px;
   width: 50%;
 }
 
@@ -116,9 +117,10 @@ footer p {
   #button {
     padding: 8px 10px;
     margin: 5px 0;
+    margin-top: 20px;
   }
 
-  .container-home {
+  .container-index {
     max-width: 80% !important;
     margin-bottom: 35px !important;
   }
@@ -179,11 +181,4 @@ label {
   letter-spacing: 2px;
   text-align: left;
   margin: 0 17px;
-}
-
-.container-touch {
-  padding: 60px 250px;
-  max-width: 80%;
-  display: block;
-  margin: 0 auto;
 }
