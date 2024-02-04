@@ -85,7 +85,7 @@ p {
 
 #photo-me {
   max-width: 325px;
-  max-height: 500px;
+  max-height: 560px;
 }
 
 img:hover {
@@ -148,7 +148,9 @@ footer p {
   }
 
   .container-touch {
-    max-width: 80% !important;
+    max-width: 90% !important;
+    display: block;
+    margin: 0 auto;
     margin-top: 35px;
   }
 
@@ -209,8 +211,27 @@ label {
 }
 
 .about-form {
-  padding: 20px !important;
-  max-width: 350px !important;
+  padding: 10px !important;
+  max-width: 420px !important;
+  margin-top: 35px;
+  margin: 20px auto !important;
   display: inline-block !important;
-  margin: 0 auto !important;
+}
+
+.about-text {
+  text-align: left;
+  line-height: 30px;
+  font-size: 17px;
+}
+
+.container-touch {
+  max-width: 80% !important;
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.h3-text {
+  text-align: left;
+  margin-bottom: 20px;
 }
