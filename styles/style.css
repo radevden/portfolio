@@ -1,6 +1,3 @@
-.hero {
-  background: black;
-}
 body {
   background-color: black !important;
 }
@@ -16,6 +13,7 @@ h1 {
   text-align: center;
   margin-bottom: 20px !important;
   margin-top: 10px !important;
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.2);
 }
 
 h2 {
@@ -41,7 +39,7 @@ h3 {
 }
 
 #button {
-  padding: 10px 30px;
+  padding: 10px 100px;
   background: #ed93be;
   box-shadow: 0px 4px 4px rgba(223, 220, 220, 0.25);
   border-radius: 50px;
@@ -56,10 +54,31 @@ h3 {
   margin: 0 auto;
   margin-bottom: 22px;
   margin-top: 22px;
-  width: 50%;
+}
+
+#submit {
+  padding: 10px 50px !important;
+  background: #ed93be !important;
+  box-shadow: 0px 4px 4px rgba(223, 220, 220, 0.1);
+  border-radius: 10px !important;
+  border: #ed93be !important;
+  justify-content: center;
+  align-items: center;
+  color: #272142 !important;
+  font-size: 14px !important;
+  font-family: Montserrat !important;
+  font-weight: 700 !important;
+  transition: all 200ms ease-in-out !important;
+  float: right;
 }
 
 #button:hover {
+  background: #272142;
+  color: #ed93be;
+  border: #272142;
+}
+
+#submit:hover {
   background: #272142;
   color: #ed93be;
   border: #272142;
@@ -80,7 +99,7 @@ p {
 
 .p-work {
   margin-top: -25px;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 #photo-me {
@@ -94,10 +113,10 @@ img:hover {
 }
 
 .row {
-  max-width: 90%;
+  max-width: 95%;
   display: block;
   margin: 0 auto !important;
-  padding: 20px 0;
+  padding: 0 15px important!;
   background: #161616;
   border-radius: 5px;
 }
@@ -114,15 +133,15 @@ footer p {
   font-size: 2em;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
   h1 {
-    font-size: 15px !important;
+    font-size: 25px !important;
   }
   h2 {
-    font-size: 12px !important;
+    font-size: 18px !important;
   }
   h3 {
-    font-size: 8px !important;
+    font-size: 15px !important;
   }
   h1,
   h2,
@@ -138,17 +157,17 @@ footer p {
   }
 
   .container-index {
-    max-width: 80% !important;
-    margin-bottom: 35px !important;
+    max-width: 85% !important;
+    margin-bottom: 25px !important;
   }
 
   .container-work {
-    max-width: 80% !important;
+    max-width: 85% !important;
     margin-top: 35px;
   }
 
   .container-touch {
-    max-width: 90% !important;
+    max-width: 85% !important;
     display: block;
     margin: 0 auto;
     margin-top: 35px;
@@ -162,9 +181,33 @@ footer p {
     max-width: 80% !important;
   }
 
+  .about-text {
+    font-size: 13px;
+    margin: 0 auto !important;
+    padding: 0 7px !important;
+  }
+
   .about-form {
     max-width: 80% !important;
     margin-top: 35px;
+  }
+
+  .form-submit {
+    max-width: 260px !important;
+    display: inline-block !important;
+  }
+
+  .submit {
+    padding: 5px 20px !important;
+    font-size: 12px !important;
+  }
+
+  label {
+    font-size: 13px;
+  }
+
+  footer {
+    font-size: 12px;
   }
 }
 
@@ -219,19 +262,47 @@ label {
 }
 
 .about-text {
-  text-align: left;
+  text-align: justify;
   line-height: 30px;
-  font-size: 17px;
+  font-size: 20px;
+  padding: 0 32px 0 0;
+}
+
+.container-index {
+  margin-bottom: 50px;
 }
 
 .container-touch {
-  max-width: 80% !important;
+  max-width: 85% !important;
   display: block;
   margin: 0 auto;
   margin-top: 35px;
 }
 
+.container-home {
+  margin-top: 50px;
+}
+
+.container-main {
+  max-width: 85%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  background-color: #ed93be;
+  border-radius: 5px;
+  padding: 35px 20px;
+  background: #161616;
+}
+
 .h3-text {
   text-align: left;
   margin-bottom: 20px;
+}
+
+.form-submit {
+  padding: 10px !important;
+  max-width: 800px !important;
+  margin-top: 35px;
+  margin: 20px auto !important;
+  display: inline-block !important;
 }
