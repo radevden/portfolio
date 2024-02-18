@@ -82,18 +82,19 @@
         </div>
       </div>
       <div class="row">
-        <form class="form-submit">
+        <form class="form-submit" id="form-submit" action="submit.html" method="post">
           <div class="line">
-            <label for="getintouch">Name</label><input id="getintouch" class="name" type="name"
-              placeholder="Enter your name">
+            <label for="name">Name</label>
+            <input id="name" class="getintouch" type="text" placeholder="Enter your name">
           </div>
           <div class="line">
-            <label for="getintouch">Email</label><input id="getintouch" class="email" type="email"
-              placeholder="Enter your email">
+            <label for="email">Email</label>
+            <input id="email" class="getintouch" type="email" placeholder="Enter your email">
           </div>
           <div class="line">
-            <label for="getintouch">Leave a message</label><textarea id="getintouch" class="message" type="text"
-              rows="4" cols="20" placeholder="Enter your message"></textarea>
+            <label for="msg">Leave a message</label>
+            <textarea id="msg" class="getintouch" type="text" rows="4" cols="20"
+              placeholder="Enter your message"></textarea>
           </div>
           <div>
             <button type="submit" id="submit" class="btn btn-primary submit">Submit</button>
@@ -116,7 +117,7 @@
     <p>This project was created by Denisa Radevová and is open-sourced on <strong><a
           href="https://github.com/radevden/portfolio" target="_blank">Github</a></strong></p>
   </footer>
-
+  <script src="src/index.js"></script>
 </body>
 
 </html>

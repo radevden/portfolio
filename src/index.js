@@ -1,9 +1,12 @@
 function sendEmail() {
-  let name = document.querySelectorAll(".name");
-  let email = document.querySelectorAll(".email");
-  let message = document.querySelectorAll(".message");
-  alert("Hello" + name);
+  let name = document.getElementById("name");
+  let email = document.getElementById("email");
+  if (name.value == "" || email.value == "") {
+    alert("Ensure you input a value in both fields!");
+  } else {
+    alert("This form has been successfully submited!");
+  }
 }
 
-let submit = document.querySelectorAll("#submit");
-submit.addEventListener("click", sendEmail);
+let form = document.getElementById("form-submit");
+form.addEventListener("submit", sendEmail);
