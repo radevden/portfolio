@@ -211,6 +211,11 @@ footer p {
   footer {
     font-size: 12px;
   }
+
+  .links {
+    margin-top: 50px;
+    font-size: medium;
+  }
 }
 
 .col-md-12 {
@@ -322,4 +327,16 @@ label {
   margin-top: 35px;
   margin: 20px auto !important;
   display: inline-block !important;
+}
+
+.links {
+  margin-top: 70px;
+  line-height: 35px;
+  color: white;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
 }
